@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(186, 226, 228);
+}
+
+h1{
+    color: black;
+    text-align: center;
+    background-color: rgb(122, 211, 212);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav_bar{
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(151, 223, 224);
+    margin: 2px;
+    padding: 2px;
+    border-radius: 1px;
+}
+
+
+
+.nav_bar:hover{
+    font-size:medium;
+    background-color: rgb(142, 184, 218);
+    width: 25%;
+    height: 25%;
+    margin: 1%;
+}
+
+.me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote{
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 4, 75);
+    border-radius: 25px 25px 25px 25px;
+}
+
+.about_me{
+    background-color: rgb(151, 223, 224);
+    background-color:rgb(151, 223, 224) ;
+    float: left;
+    border: 1px ;
+    width: 50%;
+    position: static;
+}
+
+footer{
+    position: fixed;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(142, 184, 218);
+    color: white;
+    text-align: center;
+    font-size: small;
+
+}
+
+.transform{
+    display: inline-block;
+    border: dotted;
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+    text-align: center;
+    width: 25%;
+    height: 15%;
+    translate: 500px;
+}
+
+table.center{
+    margin-left:auto; 
+    margin-right:auto;
+}
+.resume::first-letter{
+    color: rgb(37, 47, 175);
+    font-size: x-large;
+    font-style: italic;
+}
+
+.center{
+    text-align: center;
+}
+
+.fun_facts{
+    float: left;
+    width: 25%;
+    position: static;
+    padding: 10px;
+    border-style: double;
+    border-radius: 2px;
+    margin: 2%;
+}
+
+a:link{
+    color: crimson;
+}
+
+a:visited{
+    color: rgb(79, 10, 114);
+}
+
+
+.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoDescription{
+    display: block;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-color:rgb(110, 211, 212);
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#getTextBox {
+    background-color:rgb(16, 29, 209);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+#submit{
+    background-color:rgb(16, 29, 209);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+}
+
+#secondSubmit{
+    background-color:rgb(16, 29, 209);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+}
+
+ #thirdSubmit{
+    background-color:rgb(16, 29, 209);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    float: right;
+    font-size: 15px;
+    margin-top: 60px;
+ }
+
+
+.wrapper {
+    width: 80%;
+    height: 150%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #8998df;
+    font-size: 20px;
+    resize: none;
+    margin-bottom: 20px;
+  }
+  
+  textarea{
+      resize: none;
+  }
+
+
