@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8">
+        <meta keywords= "portfolio, resume, fun_facts">
+        <meta name="discription" content= "Olyana's portfolio-website">
+        <meta name="author" content="Olyana Mushe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Olyana's Portfolio</title>
+        <link rel="stylesheet" href="../public/css_styling.css">
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+            <a href="/">Home Page</a>
+            <a href="./my_resume">Resume</a>
+            <a href="./my_fun_facts">Fun Facts</a>
+            <a href="./trivia">Trivia</a>
+
+            <h1>TRIVIA</h1>
+        </nav>
+
+        <div class="container">
+            <form
+                class="triviaQuestions"
+                action="/submitquestion1"
+                method="post"
+            >
+            <label for="questionOne"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 1</h2>
+                <p class=questions>
+                    What is the speed of sound?
+                    <br>a)120km/h &nbsp; b)1,200 &nbsp; km/h &nbsp; c)400km/h &nbsp; d)700km/h
+                </p>
+            </label>
+                <input type="text"
+                    name="qOneAnswer"
+                    class="textarea"
+                    placeholder="Enter your answer"
+                    size="200"
+                    required/>
+
+                <input type="submit" value="SUBMIT" class="submitBtn" />
+            </form> 
+            
+            <br>
+
+            <form
+                class="triviaQuestions"
+                action="/submitquestion"
+                method="post"
+            >
+            <label for="questionTwo"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 2</h2>
+                <p class=questions>
+                    What do we call a newely hatched butterfly?
+                    <br>a)A moth &nbsp; b)A butter &nbsp; km/h &nbsp; c)A caterpillar &nbsp; d)A chrysalis
+                </p>
+            </label>
+                <input type="text"
+                    name="qOneAnswer"
+                    class="textarea"
+                    placeholder="Enter your answer"
+                    size="200"
+                    required/>
+                <input type="submit" value="SUBMIT" class="submitBtn" />
+            </form>
+
+            <br>
+
+            <form 
+                class="triviaQuestions"
+                action="/submitquestion"
+                method="post"
+            >
+            <label for="questionThree"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 3</h2>
+                <p class=questions>
+                    Which one of the following animals can run the fastest?  
+                    <br>a)Cheetah &nbsp; b)Leopard &nbsp; km/h &nbsp; c)Tiger &nbsp; d)Lion
+                </p>
+            </label>
+                <input type="text"
+                    name="qOneAnswer"
+                    class="textarea"
+                    placeholder="Enter your answer"
+                    size="200"
+                    required/>
+
+                <input type="submit" value="SUBMIT" class="submitBtn" />
+            </form>
+
+            <br>
+
+            <form
+                class="triviaQuestions"
+                action="/submitquestion"
+                method="post"
+                >
+                <label for="questionFour"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 4</h2>
+                    <p class=questions>
+                        In which country is Transylvania?
+                        <br>a)Bulgaria &nbsp; b)Romania &nbsp; km/h &nbsp; c)Croatia &nbsp; d)Serbia
+                    </p>
+                </label>
+                    <input type="text"
+                        name="qOneAnswer"
+                        class="textarea"
+                        placeholder="Enter your answer"
+                        size="200"
+                        required>
+                    <input type="submit" value="SUBMIT" class="submitBtn" />
+            </form>
+
+            <br>
+
+            <form
+                class="triviaQuestions"
+                action="/submitquestion"
+                method="post"
+                >
+                <label for="questionFive"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 5</h2>
+                    <p class=questions>
+                        Whcih company is known for publishing the Mario video game?  
+                        <br>a)Xbox &nbsp; b)Nintendo &nbsp; km/h &nbsp; c)SEGA &nbsp; d)Electronic Arts
+                    </p>
+                </label>
+                    <input type="text"
+                        name="qFiveAnswer"
+                        class="textarea"
+                        placeholder="Enter your answer"
+                        size="200"
+                        required>
+                    <input type="submit" value="SUBMIT" class="submitBtn" />
+            </form>
+        </div>
+    </header>
+    
+</body>
+</html>

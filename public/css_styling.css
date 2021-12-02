@@ -20,13 +20,13 @@ h1{
 
 
 
-.nav_bar:hover{
-    font-size:medium;
+/* .nav_bar:hover{
+    font-size:small;
     background-color: rgb(142, 184, 218);
-    width: 25%;
-    height: 25%;
-    margin: 1%;
-}
+    width: 10%;
+    height: 10%;
+    margin: 10%;
+} */
 
 .me{
     display: block;
@@ -107,13 +107,35 @@ a:visited{
     color: rgb(79, 10, 114);
 }
 
+.questions{
+    text-align: center;
+    background-color: rgb(44, 121, 114);
+    color: white;
+    border-radius: 2px;
+    border-style: ridge;
+}
 
-.content{
+.submitBtn{
+    text-align: center;
+    color: white;
+    background-color: rgb(6, 45, 56);
+    width: 25%;
+    height: 25px;
+}
+
+.textarea{
+    resize: none;
+    height: 35px;
+    width: 100%;
+}
+
+
+/* .content{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
+/* 
 .videoDescription{
     display: block;
     text-align: left;
@@ -176,6 +198,6 @@ a:visited{
   
   textarea{
       resize: none;
-  }
-
-
+  } */
+/* 
+ */
