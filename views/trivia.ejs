@@ -19,14 +19,14 @@
 
             <h1>TRIVIA</h1>
         </nav>
-
-        <div class="container">
-            <form
+        
+        <form
                 class="triviaQuestions"
                 action="/submitquestion1"
-                method="post"
+                method='post'
             >
-            <label for="questionOne"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 1</h2>
+            <div>
+                <label for="questionOne"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 1</h2>
                 <p class=questions>
                     What is the speed of sound?
                     <br>a)120km/h &nbsp; b)1,200 &nbsp; km/h &nbsp; c)400km/h &nbsp; d)700km/h
@@ -40,13 +40,14 @@
                     required/>
 
                 <input type="submit" value="SUBMIT" class="submitBtn" />
-            </form> 
+            </div>
+        </form> 
             
             <br>
 
             <form
                 class="triviaQuestions"
-                action="/submitquestion"
+                action="/submitquestion2"
                 method="post"
             >
             <label for="questionTwo"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 2</h2>
@@ -56,7 +57,7 @@
                 </p>
             </label>
                 <input type="text"
-                    name="qOneAnswer"
+                    name="qTwoAnswer"
                     class="textarea"
                     placeholder="Enter your answer"
                     size="200"
@@ -68,7 +69,7 @@
 
             <form 
                 class="triviaQuestions"
-                action="/submitquestion"
+                action="/submitquestion3"
                 method="post"
             >
             <label for="questionThree"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 3</h2>
@@ -78,7 +79,7 @@
                 </p>
             </label>
                 <input type="text"
-                    name="qOneAnswer"
+                    name="qThreeAnswer"
                     class="textarea"
                     placeholder="Enter your answer"
                     size="200"
@@ -91,7 +92,7 @@
 
             <form
                 class="triviaQuestions"
-                action="/submitquestion"
+                action="/submitquestion4"
                 method="post"
                 >
                 <label for="questionFour"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 4</h2>
@@ -101,7 +102,7 @@
                     </p>
                 </label>
                     <input type="text"
-                        name="qOneAnswer"
+                        name="qFourAnswer"
                         class="textarea"
                         placeholder="Enter your answer"
                         size="200"
@@ -113,7 +114,7 @@
 
             <form
                 class="triviaQuestions"
-                action="/submitquestion"
+                action="/submitquestion5"
                 method="post"
                 >
                 <label for="questionFive"><h4 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif;" >Question 5</h2>
@@ -130,7 +131,6 @@
                         required>
                     <input type="submit" value="SUBMIT" class="submitBtn" />
             </form>
-        </div>
     </header>
     
 </body>
